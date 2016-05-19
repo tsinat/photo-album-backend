@@ -3,8 +3,8 @@
 const supertest = require('supertest');
 const expect = require('chai').expect;
 
-let app = require('../app');
-let Image = require('../models/image')
+let app = require('../../app');
+let Image = require('../../models/image')
 
 const mongoose = require('mongoose');
 const dbUrl = 'mongodb://localhost/photo-album-test';
